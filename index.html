@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brazil Data App</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="containerGeneral">
+
+        <h1 class="regionsTitle">Regions</h1>
+        <h4 class="regionsTitleSub">click on a region to show the states</h4>
+        <h4 class="regionsTitleSub">Also click on a state to show the cities</h4>
+
+        <h3 id="countOfStates" class="regionsTitleSub"></h3>
+
+        <div id="regionButtons">
+            <button class="buttonsOfRegion" id="1">North</button>
+            <button class="buttonsOfRegion" id="2">Northeast</button>
+            <button class="buttonsOfRegion" id="5">Central-West</button>
+            <button class="buttonsOfRegion" id="3">Southeast</button>
+            <button class="buttonsOfRegion" id="4">South</button>
+        </div>
+
+        <!-- <h1>Federative Units (States)</h1> -->
+        <div class="containerInformationsUp">
+        <div id="federativeUnits"></div>
+        </div>
+
+        <h1 class="regionsTitle">You can also write the state UF acronym to see the cities</h1>
+        <form id="stateForm">
+            <!-- text input -->
+            <input type="text" id="state" name="state" placeholder="write state uf  ex: SP" />
+            <!-- button -->
+            <button type="submit">Search</button>
+        </form>
+
+        <h3 id="stateDiv"></h3>
+
+        <h3 id="countOfCities" class="regionsTitleSub"></h3>
+
+        <div class="containerInformationsDown">
+        <div id="cities"></div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
