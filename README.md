@@ -40,3 +40,7 @@ Please note that the code may require additional modifications to resolve issues
 ## Notes
 
 The Web app its not formatted to have responsiviness with small screens and does no have any sofisticated frameworkds, its a app just to show functionality,  maybe in the future some features can be added.
+
+The API's used in this project are:
+https://brasilapi.com.br/
+https://servicodados.ibge.gov.br/api/docs/
